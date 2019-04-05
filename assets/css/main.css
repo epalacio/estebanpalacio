@@ -23,7 +23,10 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	scroll-behavior: smooth;
+}
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2296,6 +2299,12 @@ input, select, textarea {
 
 /* Image */
 
+	.profile-pic {
+		max-width: 300px;
+		height: auto;
+		border-radius: 50%;
+	}
+
 	.image {
 		border-radius: 0.5rem;
 		border: 0;
@@ -2962,10 +2971,10 @@ input, select, textarea {
 		.wrapper.style3 {
 			background-color: #565656;
 			color: #ffffff;
-			background-image: -moz-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/pic05.jpg");
-			background-image: -webkit-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/pic05.jpg");
-			background-image: -ms-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/pic05.jpg");
-			background-image: linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/pic05.jpg");
+			background-image: -moz-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/expertise.jpg");
+			background-image: -webkit-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/expertise.jpg");
+			background-image: -ms-linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/expertise.jpg");
+			background-image: linear-gradient(to top, rgba(86, 86, 86, 0.7), rgba(86, 86, 86, 0.7)), url("../../images/expertise.jpg");
 			background-size: cover, cover;
 			background-position: center, center;
 			background-repeat: repeat, no-repeat;
