@@ -3880,3 +3880,32 @@ input, select, textarea {
 			}
 
 		}
+
+ /* ---------- Dark Mode ---------- */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #e4e4e4;
+  }
+
+	.wrapper.style2 {
+		background-color: #2b2b2b;
+		color: #fff;
+	}
+
+	#header ul li a[href="#menu"] {
+		border: 1px solid white;
+	}
+
+	#menu::before {
+		background-color: #454545;
+	}
+
+	input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
+    background-color: rgba(86, 86, 86, 0.3);
+	}
+
+	#footer .copyright {
+		opacity: 1;
+	}
+}
