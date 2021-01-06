@@ -128,3 +128,9 @@
 			});
 
 })(jQuery);
+
+// Copyright date
+const date = new Date().getFullYear();
+const copyrightDiv = document.getElementById('copyright');
+
+copyrightDiv.innerHTML = `<p>&copy; Esteban Palacio | ${date}. All rights reserved.</p>`

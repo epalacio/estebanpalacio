@@ -2096,7 +2096,7 @@ input, select, textarea {
 		border-radius: 0.5rem;
 		border: none;
 		border: solid 1px;
-		color: inherit;
+		color: #000;
 		display: block;
 		outline: 0;
 		padding: 0 1em;
@@ -3788,14 +3788,14 @@ input, select, textarea {
 
 /* Footer */
 
-	#footer .copyright {
+	#footer #copyright {
 		text-align: center;
 		opacity: 0.35;
 		font-size: 0.8em;
 		margin: 4em 0 0 0;
 	}
 
-		#footer .copyright:before {
+		#footer #copyright:before {
 			content: '';
 			display: block;
 			width: 4rem;
@@ -3908,7 +3908,7 @@ input, select, textarea {
     background-color: rgba(86, 86, 86, 0.3);
 	}
 
-	#footer .copyright {
+	#footer #copyright {
 		opacity: 1;
 	}
 }
